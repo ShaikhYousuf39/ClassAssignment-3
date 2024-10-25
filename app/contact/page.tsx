@@ -31,7 +31,6 @@ export default function ContactSection() {
             <label htmlFor="message" className="block text-left mb-2">Your Message</label>
             <textarea
               id="message"
-              rows="4"
               className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
               required
             ></textarea>
