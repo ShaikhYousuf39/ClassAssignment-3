@@ -32,6 +32,7 @@ export default function ContactSection() {
             <textarea
               id="message"
               className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
+                rows={4}
               required
             ></textarea>
           </div>
