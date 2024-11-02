@@ -3,11 +3,11 @@ export default function Home() {
     <div>
       <nav className="flex justify-between items-center p-4 bg-white text-gray-800 shadow-md">
         <div className="text-xl md:text-2xl font-bold">QuickBite</div>
-        <ul className="sm:m-2 flex md:gap-6 gap-2">
+        <ul className="m-2 flex md:gap-6 gap-2">
           <li>
             <a
               href="/about"
-              className="text-gray-800 text-base hover:text-teal-500 transition-colors duration-300"
+              className="text-gray-800 text-sm md:text-base hover:text-teal-500 transition-colors duration-300"
             >
               About
             </a>
@@ -15,7 +15,7 @@ export default function Home() {
           <li>
             <a
               href="/services"
-              className="text-gray-800 text-base hover:text-teal-500 transition-colors duration-300"
+              className="text-gray-800 text-sm md:text-base hover:text-teal-500 transition-colors duration-300"
             >
               Services
             </a>
@@ -23,22 +23,22 @@ export default function Home() {
           <li>
             <a
               href="/contact"
-              className="text-gray-800 text-base hover:text-teal-500 transition-colors duration-300"
+              className="text-gray-800 text-sm md:text-base hover:text-teal-500 transition-colors duration-300"
             >
               Contact
             </a>
           </li>
         </ul>
-        <div className="flex gap-1 md:gap-4">
+        <div className="m-2 flex gap-1 md:gap-4">
           <a
             href="/menu"
-            className="px-1 py-1 md:px-4 md:py-2 sm:text-sm border border-teal-500 text-teal-500 rounded-md hover:bg-teal-500 hover:text-white transition-colors duration-300"
+            className="sm:text-sm px-1 py-1 md:px-4 md:py-2 border border-teal-500 text-teal-500 rounded-md hover:bg-teal-500 hover:text-white transition-colors duration-300"
           >
             Menu
           </a>
           <a
             href="/order"
-            className="px-1 py-1 md:px-4 md:py-2 sm:text-sm bg-teal-500 text-white rounded-md hover:bg-teal-600 transition-colors duration-300"
+            className="sm:text-sm px-1 py-1 md:px-4 md:py-2 bg-teal-500 text-white rounded-md hover:bg-teal-600 transition-colors duration-300"
           >
             Order
           </a>
