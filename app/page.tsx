@@ -32,13 +32,13 @@ export default function Home() {
         <div className="m-2 flex gap-1 md:gap-4">
           <a
             href="/menu"
-            className="sm:text-sm px-1 py-1 md:px-4 md:py-2 border border-teal-500 text-teal-500 rounded-md hover:bg-teal-500 hover:text-white transition-colors duration-300"
+            className="sm:text-xs px-1 py-1 md:px-4 md:py-2 border border-teal-500 text-teal-500 rounded-md hover:bg-teal-500 hover:text-white transition-colors duration-300"
           >
             Menu
           </a>
           <a
             href="/order"
-            className="sm:text-sm px-1 py-1 md:px-4 md:py-2 bg-teal-500 text-white rounded-md hover:bg-teal-600 transition-colors duration-300"
+            className="sm:text-xs px-1 py-1 md:px-4 md:py-2 bg-teal-500 text-white rounded-md hover:bg-teal-600 transition-colors duration-300"
           >
             Order
           </a>
